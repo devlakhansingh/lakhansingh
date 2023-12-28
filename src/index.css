@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital@0;1&family=Lugrasimo&family=Montserrat:ital,wght@0,400;1,200;1,300&family=Open+Sans:wght@500&family=Pathway+Extreme:ital,wght@0,500;1,600&family=Poppins:wght@300;400&family=Raleway:wght@500&family=Roboto+Condensed&family=Roboto+Mono:ital,wght@1,200&family=Ubuntu:wght@500&family=Urbanist:ital,wght@1,300&display=swap');
+
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+  font-family: 'Dhurjati', sans-serif;
+
+}
+
+
+a {
+  text-decoration: none;
+}
+
+
+.navbar {
+
+  background-color: #191717;
+}
+
+.logo {
+  color: #E4F015;
+  letter-spacing: 5px;
+  font-weight: 800;
+
+}
+
+
+
+/* h1,
+h2,
+h5 {
+
+  font-family: "Lexen deca", sens-serif;
+  color: var(--bs-main-color);
+  letter-spacing: 2px;
+  font-weight: 700;
+} */
+
+
+
+
+
+/* .nav-link{
+  color: #ffff;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: 800;
+  font-size: 16px;
+}
+
+.nav-link::after{
+  content: "";
+  background-color: aqua;
+  width: 10px;
+  height: 0px;
+
+}
+
+.nav:hover {
+  color: blue;
+} */
+
+
+
+.navbar-nav .nav-link {
+  position: relative;
+
+  letter-spacing: 3px;
+  font-weight: 700;
+  color: #fff;
+  /* Set your default text color */
+  text-decoration: none;
+  /* Remove the default underline */
+}
+
+/* Add this style for the hover state of the nav-link */
+.navbar-nav .nav-link:hover {
+  color: orangered;
+
+
+
+}
+
+/* Add this style for the underline effect */
+.navbar-nav .nav-link:after {
+  content: '';
+  display: block;
+  height: 2px;
+  /* Set the underline height */
+  width: 0;
+  background-color: #ccff00;
+  /* Set the underline color */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: width 0.3s ease;
+  /* Add a smooth transition effect */
+}
+
+/* Add this style to expand the underline on hover */
+.navbar-nav .nav-link:hover:after {
+  width: 100%;
+}
+
+li {
+  text-decoration: none;
+
+
+}
+
+/* hero-ssection home */
+
+
+.hero-video-section {
+
+  min-width: 50%;
+  height: auto;
+  width: 20%;
+  animation: myAnim 7s ease 0s 1 normal forwards;
+  margin-top: 80px;
+
+}
+
+/* follow links */
+
+
+.follow-links a {
+  font-size: 30px;
+  margin: 25px;
+  margin-right: 20px;
+
+}
+
+.follow-links a:hover {
+  color: red;
+}
+
+.hero-main {
+  background-color: black;
+}
+
+.description {
+  color: white;
+  margin-left: 25px;
+
+}
+
+.hi-lakhan {
+  color: white;
+  letter-spacing: 3px;
+  margin-top: 8px;
+  margin-left: 25px;
+}
+
+.lakhan-name {
+  color: blueviolet;
+}
+
+.animate-charcter {
+
+  background-image: linear-gradient(-225deg,
+      #231557 0%,
+      #44107a 29%,
+      #ff1361 67%,
+      #fff800 100%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 35px;
+  letter-spacing: 5px;
+  margin-left: 15px;
+
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+
+
+@keyframes myAnim {
+
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
+.video::before {
+  height: 30px;
+  width: 20px;
+  background-color: aqua;
+}
+
+
+
+
+
+.hire-btn {
+  color: #F4CE14;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 2px solid #2B2A4C;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-weight: bold;
+  background: transparent;
+  position: relative;
+  transition: all 1s;
+  overflow: hidden;
+  margin-left: 19px;
+  width: 200px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.hire-btn:hover {
+  color: white;
+  background-color: blueviolet;
+}
+
+.hire-btn::before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 0%;
+  top: 0;
+  left: -40px;
+  transform: skewX(45deg);
+  background-color: purple;
+  z-index: -1;
+  transition: all 1s;
+}
+
+.hire-btn:hover::before {
+  width: 190%;
+}
+
+
+/* about-page */
+
+.about-page {
+  background-color: black;
+  height: 100vh;
+
+}
+
+.about {
+  color: white;
+
+}
+
+
+
+.about-page p {
+
+  margin-top: 120px;
+  letter-spacing: 5px;
+  color: white;
+}
+
+
+.aboutvideo {
+  height: 300px;
+  margin-left: 170px;
+  background-color: #ccff00;
+
+}
+
+/* .about-page {
+  position: relative;
+}
+
+.about-text:before {
+  content: "";
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  width: 2px;
+  height: 400px;
+  background-color: #ff0; /* Yellow color */
+/* transform: translateX(-50%);
+  content: ""; */
+/* } */
+
+/* .about-text:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ff0; /* Yellow color */
+/* }  */
+
+
+.skill-section {
+  background-color: #000;
+  height: 100%;
+
+}
+
+.card-body h6 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.skill-card {
+  margin-top: 30px;
+  height: 200px;
+
+}
+
+.skill-card:hover {
+  background-color: #000;
+  color: white;
+  border: 1px solid white;
+}
+
+.card-img img {
+  height: 100px;
+  perspective: none;
+}
+
+.project-section {
+  background-color: black;
+}
+
+.project-head {
+  /* background-color: #5F6F52; */
+  padding: 30px;
+
+}
+
+.project:hover {
+
+  cursor: pointer;
+  border: 3px solid #2B2A4C;
+  opacity: 0.3;
+
+}
+
+.project img {
+  border: 3px solid black;
+  height: 250px;
+  width: 490px;
+
+  margin-bottom: 20px;
+
+}
+
+.project img :hover {
+  -webkit-box-shadow: -17px -9px 31px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -17px -9px 31px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: -17px -9px 31px 0px rgba(0, 0, 0, 0.75);
+
+}
+
+
+.about-section {
+
+  background-color: black;
+  color: white;
+
+
+}
+
+.about-left {
+  background-image: url("./assets/blob.svg");
+}
+
+.about-left img {
+  height: 500px;
+  margin-left: 50px;
+  border-left: 7px solid blue;
+  border-top: 8px solid red;
+  border-right: 8px solid #ccff00;
+  border-bottom: 8px solid pink;
+  /* border: 2px solid white; */
+}
+
+.about-container {
+  border: 2px solid blue;
+  font-family: 'Poppins', sans-serif;
+}
+
+.about-right {
+  margin-top: 170px;
+}
+
+.contact-page {
+  background-color: #000;
+  color: white;
+}
+
+/* .contact-us{
+  background-color: #000;
+} */
+.bold {
+  color: #2B2A4C;
+}
