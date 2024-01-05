@@ -20,6 +20,7 @@ a {
 .navbar {
 
   background-color: #191717;
+  position: relative;
 }
 
 .logo {
@@ -354,16 +355,16 @@ li {
 
 }
 
-.project:hover {
+/* .project:hover {
 
   cursor: pointer;
   border: 3px solid #2B2A4C;
   opacity: 0.3;
 
-}
+} */
 
 .project img {
-  border: 3px solid black;
+  /* border: 3px solid black; */
   height: 250px;
   width: 490px;
 
@@ -371,12 +372,12 @@ li {
 
 }
 
-.project img :hover {
+/* .project img :hover {
   -webkit-box-shadow: -17px -9px 31px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -17px -9px 31px 0px rgba(0, 0, 0, 0.75);
   box-shadow: -17px -9px 31px 0px rgba(0, 0, 0, 0.75);
 
-}
+} */
 
 
 .about-section {
